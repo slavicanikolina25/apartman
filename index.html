@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>Rezervacija apartmana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Lijeva strana -->
+    <div class="left">
+        <div class="overlay">
+            <h2>Dobrodošli</h2>
+            <p>Rezervirajte svoj savršeni odmor</p>
+        </div>
+    </div>
+
+    <!-- Desna strana -->
+    <div class="right">
+        <div class="form-box">
+            <h1>Apartman Stanić</h1>
+
+            <form>
+                <label for="ime">Ime i prezime</label>
+                <input type="text" id="ime" name="ime" placeholder="Unesite ime i prezime" required>
+
+                <label for="osobe">Broj osoba</label>
+                <select id="osobe" name="osobe">
+                    <option>1 osoba</option>
+                    <option>2 osobe</option>
+                    <option>3 osobe</option>
+                    <option>4 osobe</option>
+                    <option>5 osoba</option>
+                </select>
+
+                <label for="dolazak">Datum dolaska</label>
+                <input type="date" id="dolazak" name="dolazak">
+
+                <label for="odlazak">Datum odlaska</label>
+                <input type="date" id="odlazak" name="odlazak">
+
+                <label for="telefon">Broj telefona</label>
+                <input type="tel" id="telefon" name="telefon" placeholder="+387...">
+
+                <button type="submit">Rezerviraj</button>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
